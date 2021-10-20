@@ -1,0 +1,35 @@
+running egg_info
+creating ../build/simulator/simulator.egg-info
+writing ../build/simulator/simulator.egg-info/PKG-INFO
+writing dependency_links to ../build/simulator/simulator.egg-info/dependency_links.txt
+writing entry points to ../build/simulator/simulator.egg-info/entry_points.txt
+writing requirements to ../build/simulator/simulator.egg-info/requires.txt
+writing top-level names to ../build/simulator/simulator.egg-info/top_level.txt
+writing manifest file '../build/simulator/simulator.egg-info/SOURCES.txt'
+reading manifest file '../build/simulator/simulator.egg-info/SOURCES.txt'
+writing manifest file '../build/simulator/simulator.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/bolka/dev_ws/src/build/simulator/build
+creating /home/bolka/dev_ws/src/build/simulator/build/lib
+creating /home/bolka/dev_ws/src/build/simulator/build/lib/simulator
+copying simulator/node2_simulator.py -> /home/bolka/dev_ws/src/build/simulator/build/lib/simulator
+copying simulator/__init__.py -> /home/bolka/dev_ws/src/build/simulator/build/lib/simulator
+running install
+running install_lib
+creating /home/bolka/dev_ws/src/install/simulator/lib/python3.8/site-packages/simulator
+copying /home/bolka/dev_ws/src/build/simulator/build/lib/simulator/node2_simulator.py -> /home/bolka/dev_ws/src/install/simulator/lib/python3.8/site-packages/simulator
+copying /home/bolka/dev_ws/src/build/simulator/build/lib/simulator/__init__.py -> /home/bolka/dev_ws/src/install/simulator/lib/python3.8/site-packages/simulator
+byte-compiling /home/bolka/dev_ws/src/install/simulator/lib/python3.8/site-packages/simulator/node2_simulator.py to node2_simulator.cpython-38.pyc
+byte-compiling /home/bolka/dev_ws/src/install/simulator/lib/python3.8/site-packages/simulator/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/bolka/dev_ws/src/install/simulator/share/ament_index
+creating /home/bolka/dev_ws/src/install/simulator/share/ament_index/resource_index
+creating /home/bolka/dev_ws/src/install/simulator/share/ament_index/resource_index/packages
+copying resource/simulator -> /home/bolka/dev_ws/src/install/simulator/share/ament_index/resource_index/packages
+copying package.xml -> /home/bolka/dev_ws/src/install/simulator/share/simulator
+running install_egg_info
+Copying ../build/simulator/simulator.egg-info to /home/bolka/dev_ws/src/install/simulator/lib/python3.8/site-packages/simulator-0.0.0-py3.8.egg-info
+running install_scripts
+Installing node2_simulator script to /home/bolka/dev_ws/src/install/simulator/lib/simulator
+writing list of installed files to '/home/bolka/dev_ws/src/build/simulator/install.log'

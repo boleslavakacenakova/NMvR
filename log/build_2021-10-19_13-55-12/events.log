@@ -1,0 +1,53 @@
+[0.000000] (-) TimerEvent: {}
+[0.001444] (-) JobUnselected: {'identifier': 'my_package'}
+[0.001511] (-) JobUnselected: {'identifier': 'simulator'}
+[0.001549] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.002643] (map) JobQueued: {'identifier': 'map', 'dependencies': OrderedDict()}
+[0.002846] (map) JobStarted: {'identifier': 'map'}
+[0.099511] (-) TimerEvent: {}
+[0.200065] (-) TimerEvent: {}
+[0.300447] (-) TimerEvent: {}
+[0.367409] (map) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/map', 'build', '--build-base', '/home/bolka/dev_ws/build/map/build', 'install', '--prefix', '/home/bolka/dev_ws/install/map', '--record', '/home/bolka/dev_ws/build/map/install.log', '--single-version-externally-managed'], 'cwd': '/home/bolka/dev_ws/src/map', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'bolka', 'LC_TIME': 'sk_SK.UTF-8', 'SSH_AGENT_PID': '1275', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/bolka/dev_ws/install/turtlesim/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib', 'HOME': '/home/bolka', 'OLDPWD': '/home/bolka/dev_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'sk_SK.UTF-8', 'MANAGERPID': '935', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/bolka/dev_ws/install', 'ROS_DISTRO': 'galactic', 'LOGNAME': 'bolka', 'JOURNAL_STREAM': '8:35796', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'bolka', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/bolka-Lenovo-U31-70:@/tmp/.ICE-unix/1321,unix/bolka-Lenovo-U31-70:/tmp/.ICE-unix/1321', 'INVOCATION_ID': '5aeeb399127e4ba280cf0362ea810899', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'sk_SK.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/40e4fac6_0947_4590_8d7b_6e67d3cf0882', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'sk_SK.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.140', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/bolka/dev_ws/install/my_package:/home/bolka/dev_ws/install/turtlesim:/opt/ros/galactic', 'SHELL': '/bin/bash', 'LC_NAME': 'sk_SK.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'sk_SK.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'sk_SK.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/bolka/dev_ws/build/map', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/bolka/dev_ws/install/map/lib/python3.8/site-packages:/home/bolka/dev_ws/install/my_package/lib/python3.8/site-packages:/home/bolka/dev_ws/install/turtlesim/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages', 'LC_NUMERIC': 'sk_SK.UTF-8', 'LC_PAPER': 'sk_SK.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/bolka/dev_ws/install/turtlesim'}, 'shell': False}
+[0.400638] (-) TimerEvent: {}
+[0.501067] (-) TimerEvent: {}
+[0.601395] (-) TimerEvent: {}
+[0.678125] (map) StdoutLine: {'line': b'running egg_info\n'}
+[0.679000] (map) StdoutLine: {'line': b'creating ../../build/map/map.egg-info\n'}
+[0.679249] (map) StdoutLine: {'line': b'writing ../../build/map/map.egg-info/PKG-INFO\n'}
+[0.679641] (map) StdoutLine: {'line': b'writing dependency_links to ../../build/map/map.egg-info/dependency_links.txt\n'}
+[0.679865] (map) StdoutLine: {'line': b'writing entry points to ../../build/map/map.egg-info/entry_points.txt\n'}
+[0.680085] (map) StdoutLine: {'line': b'writing requirements to ../../build/map/map.egg-info/requires.txt\n'}
+[0.680194] (map) StdoutLine: {'line': b'writing top-level names to ../../build/map/map.egg-info/top_level.txt\n'}
+[0.682142] (map) StdoutLine: {'line': b"writing manifest file '../../build/map/map.egg-info/SOURCES.txt'\n"}
+[0.701507] (-) TimerEvent: {}
+[0.728004] (map) StdoutLine: {'line': b"reading manifest file '../../build/map/map.egg-info/SOURCES.txt'\n"}
+[0.729066] (map) StdoutLine: {'line': b"writing manifest file '../../build/map/map.egg-info/SOURCES.txt'\n"}
+[0.729472] (map) StdoutLine: {'line': b'running build\n'}
+[0.730107] (map) StdoutLine: {'line': b'running build_py\n'}
+[0.730504] (map) StdoutLine: {'line': b'creating /home/bolka/dev_ws/build/map/build\n'}
+[0.730811] (map) StdoutLine: {'line': b'creating /home/bolka/dev_ws/build/map/build/lib\n'}
+[0.730962] (map) StdoutLine: {'line': b'creating /home/bolka/dev_ws/build/map/build/lib/map\n'}
+[0.731064] (map) StdoutLine: {'line': b'copying map/node1_map.py -> /home/bolka/dev_ws/build/map/build/lib/map\n'}
+[0.731160] (map) StdoutLine: {'line': b'copying map/__init__.py -> /home/bolka/dev_ws/build/map/build/lib/map\n'}
+[0.731255] (map) StdoutLine: {'line': b'running install\n'}
+[0.731994] (map) StdoutLine: {'line': b'running install_lib\n'}
+[0.733454] (map) StdoutLine: {'line': b'creating /home/bolka/dev_ws/install/map/lib/python3.8/site-packages/map\n'}
+[0.733749] (map) StdoutLine: {'line': b'copying /home/bolka/dev_ws/build/map/build/lib/map/node1_map.py -> /home/bolka/dev_ws/install/map/lib/python3.8/site-packages/map\n'}
+[0.733952] (map) StdoutLine: {'line': b'copying /home/bolka/dev_ws/build/map/build/lib/map/__init__.py -> /home/bolka/dev_ws/install/map/lib/python3.8/site-packages/map\n'}
+[0.734579] (map) StdoutLine: {'line': b'byte-compiling /home/bolka/dev_ws/install/map/lib/python3.8/site-packages/map/node1_map.py to node1_map.cpython-38.pyc\n'}
+[0.736495] (map) StdoutLine: {'line': b'byte-compiling /home/bolka/dev_ws/install/map/lib/python3.8/site-packages/map/__init__.py to __init__.cpython-38.pyc\n'}
+[0.736740] (map) StdoutLine: {'line': b'running install_data\n'}
+[0.737602] (map) StdoutLine: {'line': b'creating /home/bolka/dev_ws/install/map/share/ament_index\n'}
+[0.737992] (map) StdoutLine: {'line': b'creating /home/bolka/dev_ws/install/map/share/ament_index/resource_index\n'}
+[0.738259] (map) StdoutLine: {'line': b'creating /home/bolka/dev_ws/install/map/share/ament_index/resource_index/packages\n'}
+[0.738391] (map) StdoutLine: {'line': b'copying resource/map -> /home/bolka/dev_ws/install/map/share/ament_index/resource_index/packages\n'}
+[0.738491] (map) StdoutLine: {'line': b'copying package.xml -> /home/bolka/dev_ws/install/map/share/map\n'}
+[0.738592] (map) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.740577] (map) StdoutLine: {'line': b'Copying ../../build/map/map.egg-info to /home/bolka/dev_ws/install/map/lib/python3.8/site-packages/map-0.0.0-py3.8.egg-info\n'}
+[0.741859] (map) StdoutLine: {'line': b'running install_scripts\n'}
+[0.766278] (map) StdoutLine: {'line': b'Installing node1_map script to /home/bolka/dev_ws/install/map/lib/map\n'}
+[0.766768] (map) StdoutLine: {'line': b"writing list of installed files to '/home/bolka/dev_ws/build/map/install.log'\n"}
+[0.798610] (map) CommandEnded: {'returncode': 0}
+[0.801893] (-) TimerEvent: {}
+[0.814648] (map) JobEnded: {'identifier': 'map', 'rc': 0}
+[0.815877] (-) EventReactorShutdown: {}

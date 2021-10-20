@@ -1,0 +1,24 @@
+[1.158s] Invoking command in '/home/bolka/dev_ws/src/map': PYTHONPATH=/home/bolka/dev_ws/install/map/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/map build --build-base /home/bolka/dev_ws/build/map/build install --prefix /home/bolka/dev_ws/install/map --record /home/bolka/dev_ws/build/map/install.log --single-version-externally-managed
+[1.898s] running egg_info
+[1.900s] writing ../../build/map/map.egg-info/PKG-INFO
+[1.901s] writing dependency_links to ../../build/map/map.egg-info/dependency_links.txt
+[1.901s] writing entry points to ../../build/map/map.egg-info/entry_points.txt
+[1.901s] writing requirements to ../../build/map/map.egg-info/requires.txt
+[1.902s] writing top-level names to ../../build/map/map.egg-info/top_level.txt
+[2.005s] reading manifest file '../../build/map/map.egg-info/SOURCES.txt'
+[2.007s] writing manifest file '../../build/map/map.egg-info/SOURCES.txt'
+[2.007s] running build
+[2.008s] running build_py
+[2.008s] copying map/node1_map.py -> /home/bolka/dev_ws/build/map/build/lib/map
+[2.009s] running install
+[2.011s] running install_lib
+[2.015s] copying /home/bolka/dev_ws/build/map/build/lib/map/node1_map.py -> /home/bolka/dev_ws/install/map/lib/python3.8/site-packages/map
+[2.016s] byte-compiling /home/bolka/dev_ws/install/map/lib/python3.8/site-packages/map/node1_map.py to node1_map.cpython-38.pyc
+[2.020s] running install_data
+[2.021s] running install_egg_info
+[2.025s] removing '/home/bolka/dev_ws/install/map/lib/python3.8/site-packages/map-0.0.0-py3.8.egg-info' (and everything under it)
+[2.026s] Copying ../../build/map/map.egg-info to /home/bolka/dev_ws/install/map/lib/python3.8/site-packages/map-0.0.0-py3.8.egg-info
+[2.028s] running install_scripts
+[2.079s] Installing node1_map script to /home/bolka/dev_ws/install/map/lib/map
+[2.081s] writing list of installed files to '/home/bolka/dev_ws/build/map/install.log'
+[2.167s] Invoked command in '/home/bolka/dev_ws/src/map' returned '0': PYTHONPATH=/home/bolka/dev_ws/install/map/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/map build --build-base /home/bolka/dev_ws/build/map/build install --prefix /home/bolka/dev_ws/install/map --record /home/bolka/dev_ws/build/map/install.log --single-version-externally-managed

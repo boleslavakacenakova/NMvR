@@ -1,0 +1,37 @@
+[0.374s] Invoking command in '/home/bolka/dev_ws/src/simulator': PYTHONPATH=/home/bolka/dev_ws/src/install/simulator/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/simulator build --build-base /home/bolka/dev_ws/src/build/simulator/build install --prefix /home/bolka/dev_ws/src/install/simulator --record /home/bolka/dev_ws/src/build/simulator/install.log --single-version-externally-managed
+[0.696s] running egg_info
+[0.696s] creating ../build/simulator/simulator.egg-info
+[0.697s] writing ../build/simulator/simulator.egg-info/PKG-INFO
+[0.697s] writing dependency_links to ../build/simulator/simulator.egg-info/dependency_links.txt
+[0.698s] writing entry points to ../build/simulator/simulator.egg-info/entry_points.txt
+[0.698s] writing requirements to ../build/simulator/simulator.egg-info/requires.txt
+[0.698s] writing top-level names to ../build/simulator/simulator.egg-info/top_level.txt
+[0.700s] writing manifest file '../build/simulator/simulator.egg-info/SOURCES.txt'
+[0.747s] reading manifest file '../build/simulator/simulator.egg-info/SOURCES.txt'
+[0.748s] writing manifest file '../build/simulator/simulator.egg-info/SOURCES.txt'
+[0.748s] running build
+[0.748s] running build_py
+[0.749s] creating /home/bolka/dev_ws/src/build/simulator/build
+[0.749s] creating /home/bolka/dev_ws/src/build/simulator/build/lib
+[0.749s] creating /home/bolka/dev_ws/src/build/simulator/build/lib/simulator
+[0.749s] copying simulator/node2_simulator.py -> /home/bolka/dev_ws/src/build/simulator/build/lib/simulator
+[0.749s] copying simulator/__init__.py -> /home/bolka/dev_ws/src/build/simulator/build/lib/simulator
+[0.749s] running install
+[0.750s] running install_lib
+[0.752s] creating /home/bolka/dev_ws/src/install/simulator/lib/python3.8/site-packages/simulator
+[0.752s] copying /home/bolka/dev_ws/src/build/simulator/build/lib/simulator/node2_simulator.py -> /home/bolka/dev_ws/src/install/simulator/lib/python3.8/site-packages/simulator
+[0.752s] copying /home/bolka/dev_ws/src/build/simulator/build/lib/simulator/__init__.py -> /home/bolka/dev_ws/src/install/simulator/lib/python3.8/site-packages/simulator
+[0.753s] byte-compiling /home/bolka/dev_ws/src/install/simulator/lib/python3.8/site-packages/simulator/node2_simulator.py to node2_simulator.cpython-38.pyc
+[0.754s] byte-compiling /home/bolka/dev_ws/src/install/simulator/lib/python3.8/site-packages/simulator/__init__.py to __init__.cpython-38.pyc
+[0.755s] running install_data
+[0.755s] creating /home/bolka/dev_ws/src/install/simulator/share/ament_index
+[0.756s] creating /home/bolka/dev_ws/src/install/simulator/share/ament_index/resource_index
+[0.756s] creating /home/bolka/dev_ws/src/install/simulator/share/ament_index/resource_index/packages
+[0.756s] copying resource/simulator -> /home/bolka/dev_ws/src/install/simulator/share/ament_index/resource_index/packages
+[0.756s] copying package.xml -> /home/bolka/dev_ws/src/install/simulator/share/simulator
+[0.756s] running install_egg_info
+[0.759s] Copying ../build/simulator/simulator.egg-info to /home/bolka/dev_ws/src/install/simulator/lib/python3.8/site-packages/simulator-0.0.0-py3.8.egg-info
+[0.760s] running install_scripts
+[0.784s] Installing node2_simulator script to /home/bolka/dev_ws/src/install/simulator/lib/simulator
+[0.784s] writing list of installed files to '/home/bolka/dev_ws/src/build/simulator/install.log'
+[0.817s] Invoked command in '/home/bolka/dev_ws/src/simulator' returned '0': PYTHONPATH=/home/bolka/dev_ws/src/install/simulator/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/simulator build --build-base /home/bolka/dev_ws/src/build/simulator/build install --prefix /home/bolka/dev_ws/src/install/simulator --record /home/bolka/dev_ws/src/build/simulator/install.log --single-version-externally-managed

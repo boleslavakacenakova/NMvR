@@ -1,0 +1,3 @@
+[console_scripts]
+node2_simulator = simulator.node2_simulator:main
+

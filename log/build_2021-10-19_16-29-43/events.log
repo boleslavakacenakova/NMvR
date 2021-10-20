@@ -1,0 +1,414 @@
+[0.000000] (-) TimerEvent: {}
+[0.000635] (map) JobQueued: {'identifier': 'map', 'dependencies': OrderedDict()}
+[0.000710] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.000754] (simulator) JobQueued: {'identifier': 'simulator', 'dependencies': OrderedDict()}
+[0.000804] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.000942] (map) JobStarted: {'identifier': 'map'}
+[0.019753] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.032628] (simulator) JobStarted: {'identifier': 'simulator'}
+[0.047105] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.098910] (-) TimerEvent: {}
+[0.199673] (-) TimerEvent: {}
+[0.300017] (-) TimerEvent: {}
+[0.400970] (-) TimerEvent: {}
+[0.504563] (-) TimerEvent: {}
+[0.605204] (-) TimerEvent: {}
+[0.705613] (-) TimerEvent: {}
+[0.806116] (-) TimerEvent: {}
+[0.906675] (-) TimerEvent: {}
+[1.007032] (-) TimerEvent: {}
+[1.107405] (-) TimerEvent: {}
+[1.139421] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[1.140721] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[1.142031] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bolka/dev_ws/build/turtlesim', '--', '-j4', '-l4'], 'cwd': '/home/bolka/dev_ws/build/turtlesim', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bolka'), ('LC_TIME', 'sk_SK.UTF-8'), ('SSH_AGENT_PID', '1305'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/bolka/dev_ws/install/turtlesim/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/bolka'), ('OLDPWD', '/home/bolka/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sk_SK.UTF-8'), ('MANAGERPID', '986'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/bolka/dev_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'bolka'), ('JOURNAL_STREAM', '8:38022'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bolka'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/bolka-Lenovo-U31-70:@/tmp/.ICE-unix/1340,unix/bolka-Lenovo-U31-70:/tmp/.ICE-unix/1340'), ('INVOCATION_ID', 'b2eccf160b0b4c32a0cab5955835fde5'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sk_SK.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6d8944a7_4143_4905_94af_4f8da98d7907'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sk_SK.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.105'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/bolka/dev_ws/install/turtlesim:/home/bolka/dev_ws/install/simulator:/home/bolka/dev_ws/install/my_package:/home/bolka/dev_ws/install/map:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sk_SK.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sk_SK.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'sk_SK.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bolka/dev_ws/build/turtlesim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/bolka/dev_ws/install/turtlesim/lib/python3.8/site-packages:/home/bolka/dev_ws/install/simulator/lib/python3.8/site-packages:/home/bolka/dev_ws/install/my_package/lib/python3.8/site-packages:/home/bolka/dev_ws/install/map/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'sk_SK.UTF-8'), ('LC_PAPER', 'sk_SK.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/bolka/dev_ws/install/turtlesim:/home/bolka/dev_ws/install/simulator:/home/bolka/dev_ws/install/my_package:/home/bolka/dev_ws/install/map:/opt/ros/galactic')]), 'shell': False}
+[1.153575] (map) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/map', 'build', '--build-base', '/home/bolka/dev_ws/build/map/build', 'install', '--prefix', '/home/bolka/dev_ws/install/map', '--record', '/home/bolka/dev_ws/build/map/install.log', '--single-version-externally-managed'], 'cwd': '/home/bolka/dev_ws/src/map', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'bolka', 'LC_TIME': 'sk_SK.UTF-8', 'SSH_AGENT_PID': '1305', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/bolka/dev_ws/install/turtlesim/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib', 'HOME': '/home/bolka', 'OLDPWD': '/home/bolka/dev_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'sk_SK.UTF-8', 'MANAGERPID': '986', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/bolka/dev_ws/install', 'ROS_DISTRO': 'galactic', 'LOGNAME': 'bolka', 'JOURNAL_STREAM': '8:38022', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'bolka', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/bolka-Lenovo-U31-70:@/tmp/.ICE-unix/1340,unix/bolka-Lenovo-U31-70:/tmp/.ICE-unix/1340', 'INVOCATION_ID': 'b2eccf160b0b4c32a0cab5955835fde5', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'sk_SK.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6d8944a7_4143_4905_94af_4f8da98d7907', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'sk_SK.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.105', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/bolka/dev_ws/install/turtlesim:/home/bolka/dev_ws/install/simulator:/home/bolka/dev_ws/install/my_package:/home/bolka/dev_ws/install/map:/opt/ros/galactic', 'SHELL': '/bin/bash', 'LC_NAME': 'sk_SK.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'sk_SK.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'sk_SK.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/bolka/dev_ws/build/map', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/bolka/dev_ws/install/map/lib/python3.8/site-packages:/home/bolka/dev_ws/install/turtlesim/lib/python3.8/site-packages:/home/bolka/dev_ws/install/simulator/lib/python3.8/site-packages:/home/bolka/dev_ws/install/my_package/lib/python3.8/site-packages:/home/bolka/dev_ws/install/map/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages', 'LC_NUMERIC': 'sk_SK.UTF-8', 'LC_PAPER': 'sk_SK.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/bolka/dev_ws/install/turtlesim'}, 'shell': False}
+[1.161650] (my_package) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/my_package', 'build', '--build-base', '/home/bolka/dev_ws/build/my_package/build', 'install', '--prefix', '/home/bolka/dev_ws/install/my_package', '--record', '/home/bolka/dev_ws/build/my_package/install.log', '--single-version-externally-managed'], 'cwd': '/home/bolka/dev_ws/src/my_package', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'bolka', 'LC_TIME': 'sk_SK.UTF-8', 'SSH_AGENT_PID': '1305', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/bolka/dev_ws/install/turtlesim/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib', 'HOME': '/home/bolka', 'OLDPWD': '/home/bolka/dev_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'sk_SK.UTF-8', 'MANAGERPID': '986', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/bolka/dev_ws/install', 'ROS_DISTRO': 'galactic', 'LOGNAME': 'bolka', 'JOURNAL_STREAM': '8:38022', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'bolka', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/bolka-Lenovo-U31-70:@/tmp/.ICE-unix/1340,unix/bolka-Lenovo-U31-70:/tmp/.ICE-unix/1340', 'INVOCATION_ID': 'b2eccf160b0b4c32a0cab5955835fde5', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'sk_SK.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6d8944a7_4143_4905_94af_4f8da98d7907', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'sk_SK.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.105', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/bolka/dev_ws/install/turtlesim:/home/bolka/dev_ws/install/simulator:/home/bolka/dev_ws/install/my_package:/home/bolka/dev_ws/install/map:/opt/ros/galactic', 'SHELL': '/bin/bash', 'LC_NAME': 'sk_SK.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'sk_SK.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'sk_SK.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/bolka/dev_ws/build/my_package', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/bolka/dev_ws/install/my_package/lib/python3.8/site-packages:/home/bolka/dev_ws/install/turtlesim/lib/python3.8/site-packages:/home/bolka/dev_ws/install/simulator/lib/python3.8/site-packages:/home/bolka/dev_ws/install/my_package/lib/python3.8/site-packages:/home/bolka/dev_ws/install/map/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages', 'LC_NUMERIC': 'sk_SK.UTF-8', 'LC_PAPER': 'sk_SK.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/bolka/dev_ws/install/turtlesim'}, 'shell': False}
+[1.172282] (simulator) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/simulator', 'build', '--build-base', '/home/bolka/dev_ws/build/simulator/build', 'install', '--prefix', '/home/bolka/dev_ws/install/simulator', '--record', '/home/bolka/dev_ws/build/simulator/install.log', '--single-version-externally-managed'], 'cwd': '/home/bolka/dev_ws/src/simulator', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'bolka', 'LC_TIME': 'sk_SK.UTF-8', 'SSH_AGENT_PID': '1305', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/bolka/dev_ws/install/turtlesim/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib', 'HOME': '/home/bolka', 'OLDPWD': '/home/bolka/dev_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'sk_SK.UTF-8', 'MANAGERPID': '986', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/bolka/dev_ws/install', 'ROS_DISTRO': 'galactic', 'LOGNAME': 'bolka', 'JOURNAL_STREAM': '8:38022', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'bolka', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/bolka-Lenovo-U31-70:@/tmp/.ICE-unix/1340,unix/bolka-Lenovo-U31-70:/tmp/.ICE-unix/1340', 'INVOCATION_ID': 'b2eccf160b0b4c32a0cab5955835fde5', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'sk_SK.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6d8944a7_4143_4905_94af_4f8da98d7907', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'sk_SK.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.105', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/bolka/dev_ws/install/turtlesim:/home/bolka/dev_ws/install/simulator:/home/bolka/dev_ws/install/my_package:/home/bolka/dev_ws/install/map:/opt/ros/galactic', 'SHELL': '/bin/bash', 'LC_NAME': 'sk_SK.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'sk_SK.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'sk_SK.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/bolka/dev_ws/build/simulator', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/bolka/dev_ws/install/simulator/lib/python3.8/site-packages:/home/bolka/dev_ws/install/turtlesim/lib/python3.8/site-packages:/home/bolka/dev_ws/install/simulator/lib/python3.8/site-packages:/home/bolka/dev_ws/install/my_package/lib/python3.8/site-packages:/home/bolka/dev_ws/install/map/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages', 'LC_NUMERIC': 'sk_SK.UTF-8', 'LC_PAPER': 'sk_SK.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/bolka/dev_ws/install/turtlesim'}, 'shell': False}
+[1.207703] (-) TimerEvent: {}
+[1.302028] (turtlesim) StdoutLine: {'line': b'[ 10%] Built target turtlesim__rosidl_generator_c\n'}
+[1.307833] (-) TimerEvent: {}
+[1.313064] (turtlesim) StdoutLine: {'line': b'[ 11%] Built target turtlesim__cpp\n'}
+[1.407905] (turtlesim) StdoutLine: {'line': b'[ 21%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[1.408234] (-) TimerEvent: {}
+[1.443164] (turtlesim) StdoutLine: {'line': b'[ 31%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[1.443854] (turtlesim) StdoutLine: {'line': b'[ 41%] Built target turtlesim__rosidl_typesupport_c\n'}
+[1.465956] (turtlesim) StdoutLine: {'line': b'[ 51%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[1.505566] (turtlesim) StdoutLine: {'line': b'[ 61%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[1.508361] (-) TimerEvent: {}
+[1.574739] (turtlesim) StdoutLine: {'line': b'[ 71%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[1.608473] (-) TimerEvent: {}
+[1.618965] (turtlesim) StdoutLine: {'line': b'[ 71%] Built target turtlesim\n'}
+[1.708592] (-) TimerEvent: {}
+[1.756151] (turtlesim) StdoutLine: {'line': b'[ 72%] Built target turtlesim__py\n'}
+[1.764629] (turtlesim) StdoutLine: {'line': b'[ 74%] Built target turtle_teleop_key\n'}
+[1.768793] (turtlesim) StdoutLine: {'line': b'[ 76%] Built target mimic\n'}
+[1.775967] (turtlesim) StdoutLine: {'line': b'[ 78%] Built target draw_square\n'}
+[1.808722] (-) TimerEvent: {}
+[1.854519] (my_package) StdoutLine: {'line': b'running egg_info\n'}
+[1.858377] (my_package) StdoutLine: {'line': b'writing ../../build/my_package/my_package.egg-info/PKG-INFO\n'}
+[1.858867] (my_package) StdoutLine: {'line': b'writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt\n'}
+[1.859171] (my_package) StdoutLine: {'line': b'writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt\n'}
+[1.859428] (my_package) StdoutLine: {'line': b'writing requirements to ../../build/my_package/my_package.egg-info/requires.txt\n'}
+[1.860167] (my_package) StdoutLine: {'line': b'writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt\n'}
+[1.865458] (map) StdoutLine: {'line': b'running egg_info\n'}
+[1.867189] (map) StdoutLine: {'line': b'writing ../../build/map/map.egg-info/PKG-INFO\n'}
+[1.867758] (map) StdoutLine: {'line': b'writing dependency_links to ../../build/map/map.egg-info/dependency_links.txt\n'}
+[1.868266] (map) StdoutLine: {'line': b'writing entry points to ../../build/map/map.egg-info/entry_points.txt\n'}
+[1.868612] (map) StdoutLine: {'line': b'writing requirements to ../../build/map/map.egg-info/requires.txt\n'}
+[1.868924] (map) StdoutLine: {'line': b'writing top-level names to ../../build/map/map.egg-info/top_level.txt\n'}
+[1.888088] (turtlesim) StdoutLine: {'line': b'[ 84%] Built target turtlesim_node\n'}
+[1.890414] (turtlesim) StdoutLine: {'line': b'[ 93%] Built target turtlesim__python\n'}
+[1.908842] (-) TimerEvent: {}
+[1.909938] (simulator) StdoutLine: {'line': b'running egg_info\n'}
+[1.911426] (simulator) StdoutLine: {'line': b'writing ../../build/simulator/simulator.egg-info/PKG-INFO\n'}
+[1.911944] (simulator) StdoutLine: {'line': b'writing dependency_links to ../../build/simulator/simulator.egg-info/dependency_links.txt\n'}
+[1.912410] (simulator) StdoutLine: {'line': b'writing entry points to ../../build/simulator/simulator.egg-info/entry_points.txt\n'}
+[1.912766] (simulator) StdoutLine: {'line': b'writing requirements to ../../build/simulator/simulator.egg-info/requires.txt\n'}
+[1.913082] (simulator) StdoutLine: {'line': b'writing top-level names to ../../build/simulator/simulator.egg-info/top_level.txt\n'}
+[1.971661] (map) StdoutLine: {'line': b"reading manifest file '../../build/map/map.egg-info/SOURCES.txt'\n"}
+[1.973428] (map) StdoutLine: {'line': b"writing manifest file '../../build/map/map.egg-info/SOURCES.txt'\n"}
+[1.973901] (map) StdoutLine: {'line': b'running build\n'}
+[1.974116] (map) StdoutLine: {'line': b'running build_py\n'}
+[1.974410] (map) StdoutLine: {'line': b'running install\n'}
+[1.976253] (map) StdoutLine: {'line': b'running install_lib\n'}
+[1.980144] (map) StdoutLine: {'line': b'running install_data\n'}
+[1.981357] (map) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.985199] (map) StdoutLine: {'line': b"removing '/home/bolka/dev_ws/install/map/lib/python3.8/site-packages/map-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[1.985815] (map) StdoutLine: {'line': b'Copying ../../build/map/map.egg-info to /home/bolka/dev_ws/install/map/lib/python3.8/site-packages/map-0.0.0-py3.8.egg-info\n'}
+[1.987750] (map) StdoutLine: {'line': b'running install_scripts\n'}
+[1.998125] (turtlesim) StdoutLine: {'line': b'[ 95%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext\n'}
+[2.005358] (my_package) StdoutLine: {'line': b"reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[2.008151] (my_package) StdoutLine: {'line': b"writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[2.008984] (my_package) StdoutLine: {'line': b'running build\n'}
+[2.009285] (-) TimerEvent: {}
+[2.011232] (my_package) StdoutLine: {'line': b'running build_py\n'}
+[2.013765] (simulator) StdoutLine: {'line': b"reading manifest file '../../build/simulator/simulator.egg-info/SOURCES.txt'\n"}
+[2.014140] (my_package) StdoutLine: {'line': b'running install\n'}
+[2.015740] (my_package) StdoutLine: {'line': b'running install_lib\n'}
+[2.016102] (simulator) StdoutLine: {'line': b"writing manifest file '../../build/simulator/simulator.egg-info/SOURCES.txt'\n"}
+[2.019595] (my_package) StdoutLine: {'line': b'running install_data\n'}
+[2.019899] (simulator) StdoutLine: {'line': b'running build\n'}
+[2.020105] (simulator) StdoutLine: {'line': b'running build_py\n'}
+[2.020398] (simulator) StdoutLine: {'line': b'copying simulator/node2_simulator.py -> /home/bolka/dev_ws/build/simulator/build/lib/simulator\n'}
+[2.020667] (simulator) StdoutLine: {'line': b'running install\n'}
+[2.022159] (my_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.022624] (simulator) StdoutLine: {'line': b'running install_lib\n'}
+[2.026668] (my_package) StdoutLine: {'line': b"removing '/home/bolka/dev_ws/install/my_package/lib/python3.8/site-packages/my_package-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[2.028011] (simulator) StdoutLine: {'line': b'copying /home/bolka/dev_ws/build/simulator/build/lib/simulator/node2_simulator.py -> /home/bolka/dev_ws/install/simulator/lib/python3.8/site-packages/simulator\n'}
+[2.028769] (my_package) StdoutLine: {'line': b'Copying ../../build/my_package/my_package.egg-info to /home/bolka/dev_ws/install/my_package/lib/python3.8/site-packages/my_package-0.0.0-py3.8.egg-info\n'}
+[2.029047] (turtlesim) StdoutLine: {'line': b'[ 97%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.030881] (simulator) StdoutLine: {'line': b'byte-compiling /home/bolka/dev_ws/install/simulator/lib/python3.8/site-packages/simulator/node2_simulator.py to node2_simulator.cpython-38.pyc\n'}
+[2.031795] (my_package) StdoutLine: {'line': b'running install_scripts\n'}
+[2.033436] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim__rosidl_typesupport_c__pyext\n'}
+[2.035299] (simulator) StdoutLine: {'line': b'running install_data\n'}
+[2.036940] (simulator) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.038931] (map) StdoutLine: {'line': b'Installing node1_map script to /home/bolka/dev_ws/install/map/lib/map\n'}
+[2.040354] (map) StdoutLine: {'line': b"writing list of installed files to '/home/bolka/dev_ws/build/map/install.log'\n"}
+[2.040739] (simulator) StdoutLine: {'line': b"removing '/home/bolka/dev_ws/install/simulator/lib/python3.8/site-packages/simulator-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[2.041262] (simulator) StdoutLine: {'line': b'Copying ../../build/simulator/simulator.egg-info to /home/bolka/dev_ws/install/simulator/lib/python3.8/site-packages/simulator-0.0.0-py3.8.egg-info\n'}
+[2.043531] (simulator) StdoutLine: {'line': b'running install_scripts\n'}
+[2.075322] (turtlesim) CommandEnded: {'returncode': 0}
+[2.087838] (simulator) StdoutLine: {'line': b'Installing node2_simulator script to /home/bolka/dev_ws/install/simulator/lib/simulator\n'}
+[2.089045] (simulator) StdoutLine: {'line': b"writing list of installed files to '/home/bolka/dev_ws/build/simulator/install.log'\n"}
+[2.089622] (my_package) StdoutLine: {'line': b'Installing my_node script to /home/bolka/dev_ws/install/my_package/lib/my_package\n'}
+[2.090372] (my_package) StdoutLine: {'line': b"writing list of installed files to '/home/bolka/dev_ws/build/my_package/install.log'\n"}
+[2.107334] (map) CommandEnded: {'returncode': 0}
+[2.110168] (-) TimerEvent: {}
+[2.140436] (map) JobEnded: {'identifier': 'map', 'rc': 0}
+[2.155240] (simulator) CommandEnded: {'returncode': 0}
+[2.165775] (simulator) JobEnded: {'identifier': 'simulator', 'rc': 0}
+[2.170403] (my_package) CommandEnded: {'returncode': 0}
+[2.186060] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[2.210284] (-) TimerEvent: {}
+[2.310706] (-) TimerEvent: {}
+[2.371641] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'install'}
+[2.392553] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/bolka/dev_ws/build/turtlesim'], 'cwd': '/home/bolka/dev_ws/build/turtlesim', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bolka'), ('LC_TIME', 'sk_SK.UTF-8'), ('SSH_AGENT_PID', '1305'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/bolka/dev_ws/install/turtlesim/lib:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/bolka'), ('OLDPWD', '/home/bolka/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'sk_SK.UTF-8'), ('MANAGERPID', '986'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/bolka/dev_ws/install'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'bolka'), ('JOURNAL_STREAM', '8:38022'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bolka'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/bolka-Lenovo-U31-70:@/tmp/.ICE-unix/1340,unix/bolka-Lenovo-U31-70:/tmp/.ICE-unix/1340'), ('INVOCATION_ID', 'b2eccf160b0b4c32a0cab5955835fde5'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'sk_SK.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/6d8944a7_4143_4905_94af_4f8da98d7907'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'sk_SK.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.105'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/bolka/dev_ws/install/turtlesim:/home/bolka/dev_ws/install/simulator:/home/bolka/dev_ws/install/my_package:/home/bolka/dev_ws/install/map:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'sk_SK.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'sk_SK.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'sk_SK.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/bolka/dev_ws/build/turtlesim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/bolka/dev_ws/install/turtlesim/lib/python3.8/site-packages:/home/bolka/dev_ws/install/simulator/lib/python3.8/site-packages:/home/bolka/dev_ws/install/my_package/lib/python3.8/site-packages:/home/bolka/dev_ws/install/map/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'sk_SK.UTF-8'), ('LC_PAPER', 'sk_SK.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/bolka/dev_ws/install/turtlesim:/home/bolka/dev_ws/install/simulator:/home/bolka/dev_ws/install/my_package:/home/bolka/dev_ws/install/map:/opt/ros/galactic')]), 'shell': False}
+[2.410904] (-) TimerEvent: {}
+[2.411360] (turtlesim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.411731] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim\n'}
+[2.412032] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim\n'}
+[2.412305] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv\n'}
+[2.412592] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[2.412850] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__functions.c\n'}
+[2.413448] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.h\n'}
+[2.413685] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.h\n'}
+[2.413806] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__functions.c\n'}
+[2.413901] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__functions.h\n'}
+[2.414007] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.h\n'}
+[2.414096] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__struct.h\n'}
+[2.414184] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__struct.h\n'}
+[2.414274] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__struct.h\n'}
+[2.414362] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__functions.h\n'}
+[2.414448] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__functions.c\n'}
+[2.414536] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__functions.h\n'}
+[2.414624] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.h\n'}
+[2.414713] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__functions.c\n'}
+[2.414800] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__functions.h\n'}
+[2.414889] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__struct.h\n'}
+[2.414984] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__functions.c\n'}
+[2.415072] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.h\n'}
+[2.415234] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__functions.h\n'}
+[2.415509] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__struct.h\n'}
+[2.415678] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/teleport_absolute.h\n'}
+[2.416009] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/kill.h\n'}
+[2.416256] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/spawn.h\n'}
+[2.416360] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/set_pen.h\n'}
+[2.416451] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/teleport_relative.h\n'}
+[2.416581] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/action\n'}
+[2.416672] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[2.416761] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__functions.c\n'}
+[2.416853] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__struct.h\n'}
+[2.417101] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__functions.h\n'}
+[2.417673] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.h\n'}
+[2.417789] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/action/rotate_absolute.h\n'}
+[2.417895] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/msg\n'}
+[2.418031] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/msg/color.h\n'}
+[2.418125] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[2.418215] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__functions.h\n'}
+[2.418305] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__struct.h\n'}
+[2.418393] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__type_support.h\n'}
+[2.418529] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.h\n'}
+[2.418624] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__functions.c\n'}
+[2.418713] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__functions.h\n'}
+[2.418868] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__struct.h\n'}
+[2.419121] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__functions.c\n'}
+[2.419381] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.419664] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/msg/pose.h\n'}
+[2.419796] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/environment/library_path.sh\n'}
+[2.420049] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/environment/library_path.dsv\n'}
+[2.420245] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so\n'}
+[2.420391] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim\n'}
+[2.420609] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv\n'}
+[2.420824] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[2.420943] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[2.421153] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h\n'}
+[2.421245] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h\n'}
+[2.421344] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h\n'}
+[2.421483] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h\n'}
+[2.421575] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/action\n'}
+[2.421663] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[2.421807] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[2.421962] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/msg\n'}
+[2.422160] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[2.422269] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h\n'}
+[2.422428] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h\n'}
+[2.422599] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.422695] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so\n'}
+[2.422784] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim\n'}
+[2.422875] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv\n'}
+[2.422967] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[2.423058] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.423178] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.423303] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.423395] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.423481] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/dds_fastrtps\n'}
+[2.423568] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.423655] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/action\n'}
+[2.423744] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[2.424040] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.424132] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/action/detail/dds_fastrtps\n'}
+[2.424224] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/msg\n'}
+[2.424315] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[2.424402] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/msg/detail/dds_fastrtps\n'}
+[2.424488] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.424577] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.424664] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.424751] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.424837] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim\n'}
+[2.424925] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv\n'}
+[2.425025] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[2.425112] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.c\n'}
+[2.425198] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h\n'}
+[2.425286] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.c\n'}
+[2.425380] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h\n'}
+[2.425468] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h\n'}
+[2.425554] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h\n'}
+[2.425641] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h\n'}
+[2.425727] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.c\n'}
+[2.425816] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.c\n'}
+[2.425903] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.c\n'}
+[2.425990] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/action\n'}
+[2.426077] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[2.426166] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.c\n'}
+[2.426252] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h\n'}
+[2.426339] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/msg\n'}
+[2.426428] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[2.426514] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__type_support.c\n'}
+[2.426601] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h\n'}
+[2.426688] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h\n'}
+[2.426776] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.c\n'}
+[2.426874] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.426961] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so\n'}
+[2.427048] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so\n'}
+[2.427189] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim\n'}
+[2.427296] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv\n'}
+[2.427396] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[2.427484] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__traits.hpp\n'}
+[2.427636] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__struct.hpp\n'}
+[2.427829] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__traits.hpp\n'}
+[2.427932] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__struct.hpp\n'}
+[2.428023] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__traits.hpp\n'}
+[2.428111] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__struct.hpp\n'}
+[2.428198] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__builder.hpp\n'}
+[2.428285] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__traits.hpp\n'}
+[2.428370] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__builder.hpp\n'}
+[2.428457] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__struct.hpp\n'}
+[2.428543] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__traits.hpp\n'}
+[2.428629] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__builder.hpp\n'}
+[2.428718] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__builder.hpp\n'}
+[2.428997] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__struct.hpp\n'}
+[2.429118] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__builder.hpp\n'}
+[2.429212] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/kill.hpp\n'}
+[2.429304] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/spawn.hpp\n'}
+[2.429396] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/teleport_absolute.hpp\n'}
+[2.429488] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/set_pen.hpp\n'}
+[2.429582] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/teleport_relative.hpp\n'}
+[2.429674] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/action\n'}
+[2.429767] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/action/rotate_absolute.hpp\n'}
+[2.429857] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[2.429949] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__traits.hpp\n'}
+[2.430040] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__builder.hpp\n'}
+[2.430132] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__struct.hpp\n'}
+[2.430232] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/msg\n'}
+[2.430321] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[2.430411] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__struct.hpp\n'}
+[2.430501] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__builder.hpp\n'}
+[2.430592] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__builder.hpp\n'}
+[2.430683] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__traits.hpp\n'}
+[2.430812] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__struct.hpp\n'}
+[2.430912] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__traits.hpp\n'}
+[2.431000] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/msg/color.hpp\n'}
+[2.431090] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/msg/pose.hpp\n'}
+[2.431207] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim\n'}
+[2.431314] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv\n'}
+[2.431404] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail\n'}
+[2.431491] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.431580] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__type_support.cpp\n'}
+[2.431669] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.431758] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.431845] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/set_pen__type_support.cpp\n'}
+[2.431934] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_absolute__type_support.cpp\n'}
+[2.432023] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.432112] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/teleport_relative__type_support.cpp\n'}
+[2.432200] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__type_support.cpp\n'}
+[2.432287] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.432374] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/action\n'}
+[2.432467] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/action/detail\n'}
+[2.432554] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.432642] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/action/detail/rotate_absolute__type_support.cpp\n'}
+[2.432736] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/msg\n'}
+[2.432823] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/msg/detail\n'}
+[2.432910] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.433000] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/msg/detail/pose__type_support.cpp\n'}
+[2.433090] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__type_support.cpp\n'}
+[2.433181] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/include/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.433270] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so\n'}
+[2.433356] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so\n'}
+[2.433443] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/environment/pythonpath.sh\n'}
+[2.433531] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/environment/pythonpath.dsv\n'}
+[2.433617] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/__init__.py\n'}
+[2.474120] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action\n'}
+[2.474602] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/_rotate_absolute.py\n'}
+[2.474775] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/_rotate_absolute_s.c\n'}
+[2.474982] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/action/__init__.py\n'}
+[2.475174] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg\n'}
+[2.475277] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_pose_s.c\n'}
+[2.475368] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_color_s.c\n'}
+[2.475454] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_pose.py\n'}
+[2.475586] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/_color.py\n'}
+[2.475676] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/msg/__init__.py\n'}
+[2.475764] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv\n'}
+[2.475867] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_spawn_s.c\n'}
+[2.475958] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_set_pen.py\n'}
+[2.476045] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_absolute.py\n'}
+[2.476132] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_relative_s.c\n'}
+[2.476219] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_kill.py\n'}
+[2.476312] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_spawn.py\n'}
+[2.476442] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_kill_s.c\n'}
+[2.476532] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_relative.py\n'}
+[2.476620] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/__init__.py\n'}
+[2.476706] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_set_pen_s.c\n'}
+[2.476793] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/srv/_teleport_absolute_s.c\n'}
+[2.476885] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[2.476972] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[2.477253] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/lib/python3.8/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[2.477969] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/lib/libturtlesim__python.so\n'}
+[2.478490] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl\n'}
+[2.478763] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/msg/Color.idl\n'}
+[2.478975] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/msg/Pose.idl\n'}
+[2.479184] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/srv/Kill.idl\n'}
+[2.479349] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/srv/SetPen.idl\n'}
+[2.479544] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/srv/Spawn.idl\n'}
+[2.479735] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl\n'}
+[2.479924] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl\n'}
+[2.480084] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.action\n'}
+[2.480285] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/msg/Color.msg\n'}
+[2.480409] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/msg/Pose.msg\n'}
+[2.480521] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/srv/Kill.srv\n'}
+[2.480670] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/srv/Kill_Request.msg\n'}
+[2.480789] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/srv/Kill_Response.msg\n'}
+[2.480898] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/srv/SetPen.srv\n'}
+[2.481006] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg\n'}
+[2.481113] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg\n'}
+[2.481237] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/srv/Spawn.srv\n'}
+[2.481402] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg\n'}
+[2.481513] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg\n'}
+[2.481623] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv\n'}
+[2.481732] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg\n'}
+[2.481840] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg\n'}
+[2.482053] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv\n'}
+[2.482364] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg\n'}
+[2.482603] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg\n'}
+[2.482873] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/lib/turtlesim/turtlesim_node\n'}
+[2.483189] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/lib/turtlesim/turtle_teleop_key\n'}
+[2.483395] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/lib/turtlesim/draw_square\n'}
+[2.483579] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/lib/turtlesim/mimic\n'}
+[2.483928] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/images\n'}
+[2.484168] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/images/galactic.png\n'}
+[2.484391] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/images/crystal.png\n'}
+[2.484625] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/images/bouncy.png\n'}
+[2.484863] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/images/ardent.png\n'}
+[2.485112] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/images/eloquent.png\n'}
+[2.485352] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/images/foxy.png\n'}
+[2.485582] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/images/dashing.png\n'}
+[2.485763] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/launch\n'}
+[2.485966] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/launch/multisim.launch.py\n'}
+[2.486143] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim\n'}
+[2.486401] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim\n'}
+[2.486612] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh\n'}
+[2.486793] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv\n'}
+[2.487019] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/environment/path.sh\n'}
+[2.487214] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/environment/path.dsv\n'}
+[2.487471] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/local_setup.bash\n'}
+[2.487724] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/local_setup.sh\n'}
+[2.487986] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/local_setup.zsh\n'}
+[2.488171] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/local_setup.dsv\n'}
+[2.488405] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/package.dsv\n'}
+[2.488569] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/ament_index/resource_index/packages/turtlesim\n'}
+[2.488834] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_generator_cExport.cmake\n'}
+[2.489034] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.489281] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.489514] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.489741] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake\n'}
+[2.489979] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.490207] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_generator_cppExport.cmake\n'}
+[2.490598] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.490796] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.490978] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake\n'}
+[2.491172] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.491360] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake\n'}
+[2.491549] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.491764] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.491914] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.492088] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.492228] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.492366] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.492504] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake\n'}
+[2.492649] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake\n'}
+[2.492795] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/bolka/dev_ws/install/turtlesim/share/turtlesim/package.xml\n'}
+[2.494293] (turtlesim) CommandEnded: {'returncode': 0}
+[2.512484] (-) TimerEvent: {}
+[2.613455] (-) TimerEvent: {}
+[2.713815] (-) TimerEvent: {}
+[2.802699] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 0}
+[2.803936] (-) EventReactorShutdown: {}

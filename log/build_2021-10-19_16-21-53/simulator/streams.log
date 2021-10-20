@@ -1,0 +1,21 @@
+[1.138s] Invoking command in '/home/bolka/dev_ws/src/simulator': PYTHONPATH=/home/bolka/dev_ws/install/simulator/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/simulator build --build-base /home/bolka/dev_ws/build/simulator/build install --prefix /home/bolka/dev_ws/install/simulator --record /home/bolka/dev_ws/build/simulator/install.log --single-version-externally-managed
+[1.951s] running egg_info
+[1.953s] writing ../../build/simulator/simulator.egg-info/PKG-INFO
+[1.954s] writing dependency_links to ../../build/simulator/simulator.egg-info/dependency_links.txt
+[1.955s] writing entry points to ../../build/simulator/simulator.egg-info/entry_points.txt
+[1.956s] writing requirements to ../../build/simulator/simulator.egg-info/requires.txt
+[1.957s] writing top-level names to ../../build/simulator/simulator.egg-info/top_level.txt
+[2.064s] reading manifest file '../../build/simulator/simulator.egg-info/SOURCES.txt'
+[2.069s] writing manifest file '../../build/simulator/simulator.egg-info/SOURCES.txt'
+[2.069s] running build
+[2.069s] running build_py
+[2.070s] running install
+[2.071s] running install_lib
+[2.076s] running install_data
+[2.076s] running install_egg_info
+[2.081s] removing '/home/bolka/dev_ws/install/simulator/lib/python3.8/site-packages/simulator-0.0.0-py3.8.egg-info' (and everything under it)
+[2.082s] Copying ../../build/simulator/simulator.egg-info to /home/bolka/dev_ws/install/simulator/lib/python3.8/site-packages/simulator-0.0.0-py3.8.egg-info
+[2.084s] running install_scripts
+[2.132s] Installing node2_simulator script to /home/bolka/dev_ws/install/simulator/lib/simulator
+[2.135s] writing list of installed files to '/home/bolka/dev_ws/build/simulator/install.log'
+[2.183s] Invoked command in '/home/bolka/dev_ws/src/simulator' returned '0': PYTHONPATH=/home/bolka/dev_ws/install/simulator/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/simulator build --build-base /home/bolka/dev_ws/build/simulator/build install --prefix /home/bolka/dev_ws/install/simulator --record /home/bolka/dev_ws/build/simulator/install.log --single-version-externally-managed
