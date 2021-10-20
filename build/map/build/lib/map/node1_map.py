@@ -15,9 +15,8 @@ class MapPublisher(Node):
 
     def map_load_callback(self):
         msg = String()
-        msg.data = str(pd.read_csv('/home/bolka/Documents/nmvr/zadanie_1/data.csv', header=None).values).replace(' ', ',')
+        msg.data = str(pd.read_csv('/home/bolka/dev_ws/src/data.csv', header=None).values).replace(' ', ',')
         self.publisher.publish(msg)
-        # self.get_logger().info('ahoj')
         
 
 def main(args=None):

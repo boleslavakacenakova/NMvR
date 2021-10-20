@@ -38,7 +38,7 @@ class MinimalSubscriber(Node):
                 val = self.button.info['val']
                 map_values[y][x] = val
                 print(x, y, val)
-                np.savetxt('/home/bolka/Documents/nmvr/zadanie_1/data.csv', map_values, delimiter=',')
+                np.savetxt('/home/bolka/dev_ws/src/data.csv', map_values, delimiter=',')
 
 
         for y in range(size_y):
@@ -57,7 +57,7 @@ class MinimalSubscriber(Node):
                 button_list.append(button_box(button, button_number))
                 button.bind('<Button-1>', button_list[button_number].clicked)
                 button_number += 1
-        image = Image.open("/home/bolka/Documents/nmvr/zadanie_1/pngwing.png")
+        image = Image.open("/home/bolka/dev_ws/src/pngwing.png")
         photo = ImageTk.PhotoImage(image)
         label = Label(root, image=photo)
         label.image = photo
