@@ -10,7 +10,7 @@ class MapPublisher(Node):
     def __init__(self):
         super().__init__('map_publisher')
         self.publisher = self.create_publisher(String, 'topic', 10)
-        time_period = 1
+        time_period = 0.1
         self.timer = self.create_timer(time_period, self.map_load_callback)
 
     def map_load_callback(self):
