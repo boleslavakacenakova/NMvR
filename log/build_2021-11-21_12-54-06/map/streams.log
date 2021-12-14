@@ -1,0 +1,21 @@
+[1.673s] Invoking command in '/home/bolka/dev_ws/src/map': PYTHONPATH=/home/bolka/dev_ws/install/map/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/map build --build-base /home/bolka/dev_ws/build/map/build install --prefix /home/bolka/dev_ws/install/map --record /home/bolka/dev_ws/build/map/install.log --single-version-externally-managed
+[2.417s] running egg_info
+[2.426s] writing ../../build/map/map.egg-info/PKG-INFO
+[2.427s] writing dependency_links to ../../build/map/map.egg-info/dependency_links.txt
+[2.428s] writing entry points to ../../build/map/map.egg-info/entry_points.txt
+[2.428s] writing requirements to ../../build/map/map.egg-info/requires.txt
+[2.428s] writing top-level names to ../../build/map/map.egg-info/top_level.txt
+[2.600s] reading manifest file '../../build/map/map.egg-info/SOURCES.txt'
+[2.602s] writing manifest file '../../build/map/map.egg-info/SOURCES.txt'
+[2.603s] running build
+[2.603s] running build_py
+[2.604s] running install
+[2.612s] running install_lib
+[2.617s] running install_data
+[2.618s] running install_egg_info
+[2.623s] removing '/home/bolka/dev_ws/install/map/lib/python3.8/site-packages/map-0.0.0-py3.8.egg-info' (and everything under it)
+[2.624s] Copying ../../build/map/map.egg-info to /home/bolka/dev_ws/install/map/lib/python3.8/site-packages/map-0.0.0-py3.8.egg-info
+[2.629s] running install_scripts
+[2.693s] Installing node1_map script to /home/bolka/dev_ws/install/map/lib/map
+[2.694s] writing list of installed files to '/home/bolka/dev_ws/build/map/install.log'
+[2.785s] Invoked command in '/home/bolka/dev_ws/src/map' returned '0': PYTHONPATH=/home/bolka/dev_ws/install/map/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/map build --build-base /home/bolka/dev_ws/build/map/build install --prefix /home/bolka/dev_ws/install/map --record /home/bolka/dev_ws/build/map/install.log --single-version-externally-managed

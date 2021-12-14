@@ -1,0 +1,21 @@
+[1.072s] Invoking command in '/home/bolka/dev_ws/src/my_package': PYTHONPATH=/home/bolka/dev_ws/install/my_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/bolka/dev_ws/build/my_package/build install --prefix /home/bolka/dev_ws/install/my_package --record /home/bolka/dev_ws/build/my_package/install.log --single-version-externally-managed
+[1.739s] running egg_info
+[1.741s] writing ../../build/my_package/my_package.egg-info/PKG-INFO
+[1.742s] writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+[1.743s] writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+[1.744s] writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+[1.745s] writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+[1.856s] reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[1.859s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[1.859s] running build
+[1.859s] running build_py
+[1.860s] running install
+[1.862s] running install_lib
+[1.865s] running install_data
+[1.867s] running install_egg_info
+[1.871s] removing '/home/bolka/dev_ws/install/my_package/lib/python3.8/site-packages/my_package-0.0.0-py3.8.egg-info' (and everything under it)
+[1.872s] Copying ../../build/my_package/my_package.egg-info to /home/bolka/dev_ws/install/my_package/lib/python3.8/site-packages/my_package-0.0.0-py3.8.egg-info
+[1.874s] running install_scripts
+[1.933s] Installing my_node script to /home/bolka/dev_ws/install/my_package/lib/my_package
+[1.934s] writing list of installed files to '/home/bolka/dev_ws/build/my_package/install.log'
+[2.011s] Invoked command in '/home/bolka/dev_ws/src/my_package' returned '0': PYTHONPATH=/home/bolka/dev_ws/install/my_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_package build --build-base /home/bolka/dev_ws/build/my_package/build install --prefix /home/bolka/dev_ws/install/my_package --record /home/bolka/dev_ws/build/my_package/install.log --single-version-externally-managed

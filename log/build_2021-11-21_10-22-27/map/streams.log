@@ -1,0 +1,22 @@
+[1.055s] Invoking command in '/home/bolka/dev_ws/src/map': PYTHONPATH=/home/bolka/dev_ws/install/map/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/map build --build-base /home/bolka/dev_ws/build/map/build install --prefix /home/bolka/dev_ws/install/map --record /home/bolka/dev_ws/build/map/install.log --single-version-externally-managed
+[1.610s] running egg_info
+[1.611s] writing ../../build/map/map.egg-info/PKG-INFO
+[1.612s] writing dependency_links to ../../build/map/map.egg-info/dependency_links.txt
+[1.612s] writing entry points to ../../build/map/map.egg-info/entry_points.txt
+[1.612s] writing requirements to ../../build/map/map.egg-info/requires.txt
+[1.612s] writing top-level names to ../../build/map/map.egg-info/top_level.txt
+[1.721s] reading manifest file '../../build/map/map.egg-info/SOURCES.txt'
+[1.723s] writing manifest file '../../build/map/map.egg-info/SOURCES.txt'
+[1.724s] running build
+[1.724s] running build_py
+[1.725s] running install
+[1.727s] running install_lib
+[1.731s] byte-compiling /home/bolka/dev_ws/install/map/lib/python3.8/site-packages/map/node1_map.py to node1_map.cpython-38.pyc
+[1.736s] running install_data
+[1.738s] running install_egg_info
+[1.742s] removing '/home/bolka/dev_ws/install/map/lib/python3.8/site-packages/map-0.0.0-py3.8.egg-info' (and everything under it)
+[1.743s] Copying ../../build/map/map.egg-info to /home/bolka/dev_ws/install/map/lib/python3.8/site-packages/map-0.0.0-py3.8.egg-info
+[1.745s] running install_scripts
+[1.785s] Installing node1_map script to /home/bolka/dev_ws/install/map/lib/map
+[1.786s] writing list of installed files to '/home/bolka/dev_ws/build/map/install.log'
+[1.837s] Invoked command in '/home/bolka/dev_ws/src/map' returned '0': PYTHONPATH=/home/bolka/dev_ws/install/map/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/map build --build-base /home/bolka/dev_ws/build/map/build install --prefix /home/bolka/dev_ws/install/map --record /home/bolka/dev_ws/build/map/install.log --single-version-externally-managed

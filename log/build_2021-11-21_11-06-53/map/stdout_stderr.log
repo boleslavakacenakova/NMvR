@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/map/map.egg-info/PKG-INFO
+writing dependency_links to ../../build/map/map.egg-info/dependency_links.txt
+writing entry points to ../../build/map/map.egg-info/entry_points.txt
+writing requirements to ../../build/map/map.egg-info/requires.txt
+writing top-level names to ../../build/map/map.egg-info/top_level.txt
+reading manifest file '../../build/map/map.egg-info/SOURCES.txt'
+writing manifest file '../../build/map/map.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+byte-compiling /home/bolka/dev_ws/install/map/lib/python3.8/site-packages/map/node1_map.py to node1_map.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/bolka/dev_ws/install/map/lib/python3.8/site-packages/map-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/map/map.egg-info to /home/bolka/dev_ws/install/map/lib/python3.8/site-packages/map-0.0.0-py3.8.egg-info
+running install_scripts
+Installing node1_map script to /home/bolka/dev_ws/install/map/lib/map
+writing list of installed files to '/home/bolka/dev_ws/build/map/install.log'
