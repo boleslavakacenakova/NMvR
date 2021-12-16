@@ -12,12 +12,10 @@ class MapPublisher(Node):
         self.publisher = self.create_publisher(String, 'topic', 10)
         time_period = 0.01
         self.timer = self.create_timer(time_period, self.map_load_callback)
-        self.datafile = "/home/bolka/dev_ws/src/data.csv"
-        # self.datafile = "data.csv"
-        
+
     def map_load_callback(self):
         msg = String()
-        msg.data = str(pd.read_csv(self.datafile, header=None).values).replace(' ', ',')
+        msg.data = str(pd.read_csv('/home/bolka/dev_ws/src/data.csv', header=None).values).replace(' ', ',')
         self.publisher.publish(msg)
         
 
